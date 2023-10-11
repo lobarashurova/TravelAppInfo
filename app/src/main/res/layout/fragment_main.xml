@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:id="@+id/menu"
+            android:layout_width="40dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_height="40dp"
+            app:lottie_rawRes="@raw/menu"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:text="Travel around the world"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:text="Wonderful places"
+        android:textAllCaps="true"
+        android:layout_marginStart="23dp"
+        android:textColor="#C61515"
+        android:textSize="32dp"
+        android:textStyle="normal" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginHorizontal="15dp"
+        app:cardCornerRadius="8dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:maxLength="20"
+            android:maxLines="1"
+            android:inputType="text"
+            android:id="@+id/search_edt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ECEAEA"
+            android:backgroundTint="#ECEAEA"
+            android:drawableEnd="@drawable/ic_baseline_search_24"
+            android:hint="Search by country name"
+            android:paddingHorizontal="25sp"
+            tools:ignore="RtlSymmetry" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        app:cardCornerRadius="15dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:text="Top 30 countries to travel"
+                android:paddingStart="10dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_users"
+                android:paddingStart="15dp"
+                android:layout_marginTop="25sp"
+                android:paddingEnd="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                tools:listitem="@layout/country_item"
+                android:layout_marginBottom="25sp"
+                />
+        </LinearLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/placeHolder"
+        android:layout_width="250dp"
+        android:layout_gravity="center"
+        android:layout_height="250dp"
+        app:lottie_rawRes="@raw/empty2"
+        app:lottie_autoPlay="true"
+        android:visibility="invisible"
+        android:scaleType="center"
+        app:lottie_loop="true"
+        android:layout_marginTop="185sp"
+        />
+
+</FrameLayout>

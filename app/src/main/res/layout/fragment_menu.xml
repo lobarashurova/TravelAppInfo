@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Travel app"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:textSize="35sp"
+        android:fontFamily="@font/nunito_bold"
+        />
+
+    <FrameLayout
+        android:id="@+id/fl_about"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="35dp"
+        android:clickable="true"
+
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:id="@+id/tv_problem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:text="Rate us"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical|center_horizontal|center"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            android:src="@drawable/ic_baseline_star_24" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_share"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:text="Share app"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical|center_horizontal|center"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            android:src="@drawable/baseline_share_24" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_contact"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:text="To contact"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical|center_horizontal|center"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            android:src="@drawable/baseline_person_24" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_info"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:text="Info"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical|center_horizontal|center"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            android:src="@drawable/about"
+            app:tint="#6B29DF" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/fl_exit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="15dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:foreground="?attr/selectableItemBackground">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="16dp"
+            android:fontFamily="@font/nunito_semi_bold"
+            android:text="Exit"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="right|center_vertical|center_horizontal|center"
+            android:layout_marginEnd="16dp"
+            android:padding="4dp"
+            android:src="@drawable/baseline_exit_to_app_24" />
+    </FrameLayout>
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="45dp"
+        app:lottie_rawRes="@raw/animation_lko12p2p"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+
+</LinearLayout>

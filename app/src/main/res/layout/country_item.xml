@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CardViewStyle"
+    app:cardCornerRadius="8dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <FrameLayout
+        android:id="@+id/Frame10"
+        style="@style/FrameLayoutStyle">
+
+        <ImageView
+            android:id="@+id/img_item_"
+            style="@style/ImageViewStyle"
+            android:src="@drawable/jakarta" />
+
+        <TextView
+            android:id="@+id/text_item_city"
+            style="@style/TextViewStyle"
+            android:text="Jakarta\nIndonesia" />
+    </FrameLayout>
+</androidx.cardview.widget.CardView>

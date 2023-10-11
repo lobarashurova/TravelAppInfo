@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "250477430250",
+    "project_id": "my-playmarket-apps",
+    "storage_bucket": "my-playmarket-apps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250477430250:android:064f7a1702903cfe885e93",
+        "android_client_info": {
+          "package_name": "uz.gita.testapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ghkh9AfaaFEPiLqadNIAjPPN24-pQwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250477430250:android:d942715147b5c5ee885e93",
+        "android_client_info": {
+          "package_name": "uz.mlsoft.jungle2048"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ghkh9AfaaFEPiLqadNIAjPPN24-pQwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250477430250:android:5d52ddfd5b812e30885e93",
+        "android_client_info": {
+          "package_name": "uz.mlsoft.new2048game"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ghkh9AfaaFEPiLqadNIAjPPN24-pQwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250477430250:android:98dbf36e08f897e9885e93",
+        "android_client_info": {
+          "package_name": "uz.mlsoft.newmemorygameanimals"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ghkh9AfaaFEPiLqadNIAjPPN24-pQwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:250477430250:android:b836955397b68bb7885e93",
+        "android_client_info": {
+          "package_name": "uz.mlsoft.travelmyappinfo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0ghkh9AfaaFEPiLqadNIAjPPN24-pQwQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
